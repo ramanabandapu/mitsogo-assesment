@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import ListAltOutlinedIcon from "@mui/icons-material/ListAltOutlined";
 import ArchiveOutlinedIcon from "@mui/icons-material/ArchiveOutlined";

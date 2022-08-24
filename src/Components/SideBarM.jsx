@@ -1,4 +1,5 @@
 import React from "react";
+import "../App.css";
 import MenuOpenIcon from "@mui/icons-material/MenuOpen";
 import { SidebarData } from "./SidebarData";
 import {
@@ -23,9 +24,7 @@ export const SideBarM = () => {
 
   return (
     <>
-      {/* <Button ref={btnRef} colorScheme="teal" onClick={onOpen}>
-        Open
-      </Button> */}
+     
       <Box ref={btnRef} colorScheme="teal" onClick={onOpen}>
         <MenuOpenIcon />
       </Box>
@@ -36,6 +35,7 @@ export const SideBarM = () => {
         onClose={onClose}
         finalFocusRef={btnRef}
         size="xs"
+        
       >
         <DrawerContent>
           <DrawerCloseButton />

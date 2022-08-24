@@ -1,4 +1,4 @@
-/* .App {
+ .App {
   
   height: 100vh;
   display: flex;
@@ -8,10 +8,10 @@
   width: 250px;
   background-color: #43425d;
 }
-body {
+/* body {
   margin: 0;
   padding: 0;
-}
+} */
 .SidebarList {
   height: auto;
   padding: 0;
@@ -45,15 +45,15 @@ body {
 .row #title {
   flex: 70%;
 }
-.dashboard_container {
+/* .dashboard_container {
   width: 80%;
   border: 2px solid red;
   justify-content: space-between;
-}
-.nav_opts {
+} */
+/* .nav_opts {
   display: flex;
   width: 12%;
   justify-content: space-between;
   border: 2px solid;
   align-items: center;
-} */
+}  */

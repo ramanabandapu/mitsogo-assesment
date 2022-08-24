@@ -3,8 +3,8 @@ import { SidebarData } from "./SidebarData";
 import "../App.css";
 const Sidebar = () => {
   return (
-    <div className="Sidebar" style={{border:"2px solid red", textAlign:"left"}}>
-      <ul className="SidebarList">
+    <div className="Sidebar" style={{bg:"blue"}} >
+      <ul className="SidebarList" style={{bg:"blue"}} >
         {SidebarData.map((val, key) => {
           return (
             <li key={key} className="row">
