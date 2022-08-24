@@ -24,7 +24,6 @@ export const SideBarM = () => {
 
   return (
     <>
-     
       <Box ref={btnRef} colorScheme="teal" onClick={onOpen}>
         <MenuOpenIcon />
       </Box>
@@ -35,19 +34,26 @@ export const SideBarM = () => {
         onClose={onClose}
         finalFocusRef={btnRef}
         size="xs"
-        
+        bg={"#43425D"}
       >
         <DrawerContent>
           <DrawerCloseButton />
-          <DrawerHeader>
-            <Text>ACME</Text>
+          <DrawerHeader bg="#3C3B54">
+            <Text color="white" letterSpacing={"5px"} fontSize="16px">
+              ACME
+            </Text>
           </DrawerHeader>
-
-          <DrawerBody>
-            {SidebarData.map((item,i) => (
-              <Flex gap="10px" key={i}>
-                <Box>{item.icon}</Box>
-                <Box>{item.title}</Box>
+          <DrawerBody bg={"#43425D"} p="0px">
+            {SidebarData.map((item, i) => (
+              <Flex
+                gap="13px"
+                key={i}
+                border="1px solid red"
+                p={"10px"}
+                className="hover-effect"
+              >
+                <Box color="grey">{item.icon}</Box>
+                <Box color="white">{item.title}</Box>
               </Flex>
             ))}
           </DrawerBody>

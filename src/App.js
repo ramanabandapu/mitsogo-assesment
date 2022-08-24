@@ -1,4 +1,4 @@
-import Sidebar from "./Components/Sidebar";
+
 import "./App.css";
 import { Dashboard } from "./Components/Dashboard";
 import { Container } from "@chakra-ui/react";

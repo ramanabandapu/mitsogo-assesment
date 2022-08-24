@@ -69,7 +69,7 @@ export const Profile = () => {
         </Text>
       </Flex>
       {profileData.map((item, i) => (
-        <Flex mb="10px">
+        <Flex mb="10px" ml="5px">
           <Box>
             <Image
               src={item.profile}

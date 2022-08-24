@@ -28,8 +28,7 @@ const lg = `  "line pie prof"
 
 export const Dashboard = () => {
   return (
-    <Box m="" bg={"#F0F0F7"}>
-
+    <Box bg={"#F0F0F7"}>
       <SearchBar />
       <Navbar/>
       <Grid

@@ -52,8 +52,8 @@ export const SearchBar = () => {
           src="https://github.com/ramanabandapu/mitsogo-assesment/blob/main/profile-pic-01.jpg?raw=true"
           alt={"profile"}
           rounded="50px"
-          h={"50%"}
-          w={"50%"}/>
+          h={"30px"}
+          w={"30px"}/>
           </Box>
         </Flex>
       </Flex>
