@@ -48,7 +48,7 @@ export const SideBarM = () => {
               <Flex
                 gap="13px"
                 key={i}
-                border="1px solid red"
+               
                 p={"10px"}
                 className="hover-effect"
               >
